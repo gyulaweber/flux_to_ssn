@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
 		ssn = 0;
 	}
 
-	printf("%i", (int)(ssn + 0.5));
+	printf("%i\n", (int)(ssn + 0.5));
 
 	return 0;
 }
