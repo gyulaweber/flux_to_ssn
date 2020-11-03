@@ -4,8 +4,8 @@ Converts flux to ssn
 
 ## How to build
 
-```gcc ssn.c -o ssn```
+```gcc flux_to_ssn.c -o flux_to_ssn```
 
 ## Usage example
 
-``` ./ssn 90 ```
+``` ./flux_to_ssn 90 ```
