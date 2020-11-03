@@ -3,7 +3,7 @@
 
 int main(int argc, char **argv) {
   // Read the first argument
-	float flux = atof(argv[1]);
+	float flux = atoi(argv[1]);
 
 	// Coefficients for sunspot number conversion
 	float c1 = 1.61;
@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
 		ssn = 0;
 	}
 
-	printf("%i\n", (int)(ssn + 0.5));
+	printf("%i flux = %i ssn\n", (int)flux, (int)(ssn + 0.5));
 
 	return 0;
 }
